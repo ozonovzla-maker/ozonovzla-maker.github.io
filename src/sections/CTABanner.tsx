@@ -1,15 +1,8 @@
 import { motion } from 'framer-motion';
-import { ArrowRight, MessageCircle } from 'lucide-react';
+import { MessageCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export function CTABanner() {
-  const scrollToContact = () => {
-    const element = document.querySelector('#contacto');
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
   return (
     <section
       aria-labelledby="cta-title"
