@@ -46,7 +46,7 @@ const products = [
     description:
       'Generador de ozono médico con modo de bomba al vacío para aplicaciones clínicas avanzadas.',
     price: 'Consultar',
-    image: '/images/serie-1000.jpeg',
+    image: '/images/serie-1000v2.jpeg',
     availability: 'https://schema.org/InStock',
     features: [
       'Concentración: 1-120 μg/mL',
